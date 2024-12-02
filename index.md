@@ -9,7 +9,7 @@ Add a short welcome message or introduction here. Aim to get the viewer interest
 
 ## **Template VGA Design**
 ### **Project Set-Up**
-Summarise the project set-up and design flow. Include a screenshot of your own set-up, for example see the image of my Project Summary window below. Guideline 1 short paragraph.
+Summarise the set-up and design flow. Include a screenshot of your own set-up, for example see the image of my Project Summary window below. Guideline 1 short paragraph.
 
 <img src="PXL_20241111_160449527.MP.jpg">
 ### **Template Code**
