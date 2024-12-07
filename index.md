@@ -4,8 +4,7 @@ title: FPGA VGA Driver Project
 tags: fpga vga verilog
 categories: demo
 ---
-
-Add a short welcome message or introduction here. Aim to get the viewer interested in what follows! Guideline: 1 or 2 sentences.
+Hello my name is Nasir Ahmad. This is my project for the module System on Chip Design. In this project I used a FPGA BASYs board to display a VGA image that I created using Vivado.
 
 ## **Template VGA Design**
 ### **Project Set-Up**
