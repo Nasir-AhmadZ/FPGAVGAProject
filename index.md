@@ -15,11 +15,12 @@ We were given template code by our professor Michelle Lynch. This was uploaded t
 
 <img src="PXL_20241111_160449527.MP.jpg">
 <img src="SoC-Images/Project Hierarchy.png">
+
 ### **Template Code**
 Outline the structure and design of the Verilog code templates you were given. What do they do? Include reference to how a VGA interface works. Guideline: 2/3 short paragraphs, consider including screenshot(s).
 
 
-There are two main templates for creating the images. These are **ColourCycle.v** and ** ColourStripes.v**. 
+There are two main templates for creating the images. These are **ColourCycle.v** and **ColourStripes.v**. 
 
 **ColourCycle.v** uses a state machine to change the state of the code. Each state represented a colour going from black, red, yellow, green, cyan, blue, white and then back to black as it starts repeating. The screen was coloured using a 12-bit value that would be written to the colour register. The first four bits represeent the red value, the second four bits represent the green value and the last four bits represents the blue value. For example 0000 0000 0000 woould be black and 1111 0000 0000 would be red.
 ### **Simulation**
