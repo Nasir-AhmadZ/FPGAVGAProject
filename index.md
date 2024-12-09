@@ -11,12 +11,16 @@ Hello my name is Nasir Ahmad. This is my project for the module System on Chip D
 Summarise the set-up and design flow. Include a screenshot of your own set-up, for example see the image of my Project Summary window below. Guideline 1 short paragraph.
 
 
-We were given template code by our professor Michelle Lynch. This was uploaded to moodle for our use. The first thing I did was set up my project by downloading the template code from moodle and importing it into a project within vivado. The template code included a VGATop.v, VGASync.v, VGAColorCycle.v, Testbench.v and Basys3_Master.xdc. I changed the clock frequancy to 25MHz using the clock wizard. This was done to match the timing of the VGA signal.
+We were given template code by our professor Michelle Lynch. This was uploaded to moodle for our use. The first thing I did was set up my project by downloading the template code from moodle and importing it into a project within vivado. The template code included a VGATop.v, VGASync.v, VGAColorCycle.v, Testbench.v and Basys3_Master.xdc. I changed the clock frequancy to 25MHz using the clock wizard. This was done to match the timing of the VGA signal. The VGA resolution was 480x640.
 
 <img src="PXL_20241111_160449527.MP.jpg">
 <img src="SoC-Images/Project Hierarchy.png">
 ### **Template Code**
 Outline the structure and design of the Verilog code templates you were given. What do they do? Include reference to how a VGA interface works. Guideline: 2/3 short paragraphs, consider including screenshot(s).
+
+There are two main templates for creating the images. These are **ColourCycle.v** and ** ColourStripes.v**. 
+
+**ColourCycle.v** uses a state machine to change the state of the code. Each state represented a colour going from black, red, yellow, green, cyan, blue, white and then back to black as it starts repeating. The screen was coloured using a 12-bit value that would be written to the colour register. The first four bits represeent the red value, the second four bits represent the green value and the last four bits represents the blue value. For example 0000 0000 0000 woould be black and 1111 0000 0000 would be red.
 ### **Simulation**
 Explain the simulation process. Reference any important details, include a well-selected screenshot of the simulation. Guideline: 1/2 short paragraphs.
 ### **Synthesis**
