@@ -79,6 +79,10 @@ Code for img2
 
 <img src="SoC-Images/img2_code.png">
 
+Assigning output wires to colour registers.
+
+<img src="SoC-Images/colour_register.png">
+
 ### **Simulation**
 The Simulation reduced the time it took to run the code. Below is the code I used for the testbench.
 
