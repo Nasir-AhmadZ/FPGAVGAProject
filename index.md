@@ -67,9 +67,16 @@ To create different images depending on which switch was on, I went into the Bas
 
 Like in ColourStripes.v I used `if statements` to assign different pixels a colour value. In ColourStripes.v the only use col to change the colours within certain columns which created stripes. I changed this to use both columns and rows. So that the pixels would change colour depending on both the row and column. I divided the screen into 60x640 segments, this split the screen into 8 segments, each segment was assigned a different colour. For example the first rows 0 to 60 were assigned the colour white. I then used the condition `if(col%10 || row%10)` to make everything around the pixels whos row was divisble by 10 or colomn was divisble by 10 black. 
 ### **Simulation**
-The Simulation reduced the time it took to run the code. 
+The Simulation reduced the time it took to run the code. Below is the code I used for the testbench.
+
+<img src="SoC-Images/testbench code.png">
 ### **Synthesis**
-Describe the synthesis & implementation outputs for your design, are there any differences to that of the original design? Guideline 1-2 short paragraphs.
+You need to run Synthesis and Implementation before you can generate a bitstream. The only change would be the switches. 
+Synthesis
+<img src="SoC-Images/synthesis.png">
+
+Implementation
+<img src="SoC-Images/Implementation.png">
 ### **Demonstration**
 **Image 1**
 
