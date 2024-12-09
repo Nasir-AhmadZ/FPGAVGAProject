@@ -64,13 +64,19 @@ Briefly show how you changed the template code to display a different image. Dem
 
 To create different images depending on which switch was on, I went into the Basys3_Master.xdc file to change the name of the switch and also tell the board that the switch is not a clock using `set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets img1_IBUF]`. I also added img1 and img2 as inputs into my ColourCycle.v and VGATop.v file. This lets the board access img1 and img2. Now in the ColourCycle.v I can use the condition `if(img1 == 1'b1)` and `if(img2 == 1'b1)` to display the images. I used if statments for both so that img2 could be overlayed on top of img1.
 
-Like in ColourStripes.v I used `if statements` to assign different pixels a colour value. In ColourStripes.v the only use col to change the colours within certain columns which created stripes. I changed this to use both columns and rows. So that the pixels would change colour depending on both the row and column. I divided the screen into 60x640 segments, this split the screen into 8 segments, each segment was assigned a different colour. For example the first rows 0 to 60 were assigned the colour blue. I then used the condition `if(col%10 || row%10)` to make everything around the pixels whos row was divisble by 10 or colomn was divisble by 10 black. 
+Like in ColourStripes.v I used `if statements` to assign different pixels a colour value. In ColourStripes.v the only use col to change the colours within certain columns which created stripes. I changed this to use both columns and rows. So that the pixels would change colour depending on both the row and column. I divided the screen into 60x640 segments, this split the screen into 8 segments, each segment was assigned a different colour. For example the first rows 0 to 60 were assigned the colour white. I then used the condition `if(col%10 || row%10)` to make everything around the pixels whos row was divisble by 10 or colomn was divisble by 10 black. 
 ### **Simulation**
 Show how you simulated your own design. Are there any things to note? Demonstrate your understanding. Add a screenshot. Guideline: 1-2 short paragraphs.
 ### **Synthesis**
 Describe the synthesis & implementation outputs for your design, are there any differences to that of the original design? Guideline 1-2 short paragraphs.
 ### **Demonstration**
 If you get your own design working on the Basys3 board, take a picture! Guideline: 1-2 sentences.
+
+<img src="SoC-Images/img1_demo.jpg">
+
+<img src="SoC-Images/img2_demo.jpg">
+
+<img src="SoC-Images/img1&2Combined_demo.jpg">
 
 ## **More Markdown Basics**
 This is a paragraph. Add an empty line to start a new paragraph.
