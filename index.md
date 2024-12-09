@@ -22,7 +22,7 @@ Outline the structure and design of the Verilog code templates you were given. W
 
 There are two main templates for creating the images. These are **ColourCycle.v** and **ColourStripes.v**. 
 
-**ColourCycle.v** uses a state machine to change the state of the code. Each state represented a colour going from black, red, yellow, green, cyan, blue, white and then back to black as it starts repeating. The screen was coloured using a 12-bit value that would be written to the colour register. The first four bits represeent the red value, the second four bits represent the green value and the last four bits represents the blue value. For example 0000 0000 0000 woould be black and 1111 0000 0000 would be red.
+**ColourCycle.v** uses a state machine to change the state of the code. Each state represented a colour going from black, red, yellow, green, cyan, blue, white and then back to black as it starts repeating. The next state is selected once counter has reached COUNT_TO. Thia allows us to see the colour for long enough before switch to the next state.  The screen was coloured using a 12-bit value that would be written to the colour register. The first four bits represeent the red value, the second four bits represent the green value and the last four bits represents the blue value. For example 0000 0000 0000 woould be black and 1111 0000 0000 would be red. ColourCycle.v uses three registers to write the colours to. These are the red, green and blue registers. 
 ### **Simulation**
 Explain the simulation process. Reference any important details, include a well-selected screenshot of the simulation. Guideline: 1/2 short paragraphs.
 ### **Synthesis**
