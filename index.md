@@ -26,6 +26,7 @@ There are two main templates for creating the images. These are **ColourCycle.v*
 
 **ColourStripes.v** Produces vertical lines of colour using inputs roe and col. These represent the row and coloumn of the VGA screen. ColourStrpies.v uses if statements to change the colour of the screen depending on the specific rows and columns. For example when the column is in the ranges 0 - 80 the colour will be black. ColourStripes.v also uses three registers for the colours just like in ColourCycle.v except it just assigns the three registers to the three color registers on each positive clock edge.
 ### **Simulation**
+
 Explain the simulation process. Reference any important details, include a well-selected screenshot of the simulation. Guideline: 1/2 short paragraphs.
 
 In this process we use testbench.v to generate a simulation. We can use the simulation to test our code quickly rather than having to generate a bitstream each time which take a long time to genearate. This is because generating a bitstream involves also generating a new synthesis and implemention first which both take quite a bit of time on there own. Using the simulation we can get an idea of what the VGA output might look like. 
@@ -36,6 +37,7 @@ When running the simulation Vivado will open a waveform viewer. This displays th
 
 
 <img src="SoC-Images/ColourStripes_Testbench.png">
+
 ### **Synthesis**
 Describe the synthesis and implementation processes. Consider including 1/2 useful screenshot(s). Guideline: 1/2 short paragraphs.
 
