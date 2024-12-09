@@ -4,13 +4,14 @@ title: FPGA VGA Driver Project
 tags: fpga vga verilog
 categories: demo
 ---
-Hello my name is Nasir Ahmad. This is my project for the module System on Chip Design. In this project I used a FPGA BASYs board to display a VGA image that I created using Vivado.
+Hello my name is Nasir Ahmad. This is my project for the module System on Chip Design. In this project I used a Basys 3 Artix-7 FPGA board to display a VGA(Video Grid Array) image that I created using Vivado. The project was coded in verilog.
 
 ## **Template VGA Design**
 ### **Project Set-Up**
 Summarise the set-up and design flow. Include a screenshot of your own set-up, for example see the image of my Project Summary window below. Guideline 1 short paragraph.
 
 <img src="PXL_20241111_160449527.MP.jpg">
+<img src="">
 ### **Template Code**
 Outline the structure and design of the Verilog code templates you were given. What do they do? Include reference to how a VGA interface works. Guideline: 2/3 short paragraphs, consider including screenshot(s).
 ### **Simulation**
