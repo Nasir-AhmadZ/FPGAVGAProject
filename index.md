@@ -117,12 +117,12 @@ Implementation
 ### **References**
 [1] M. Lynch, “SoC”, Lecture, ATU, Galway, 2024.
 
-[2] Shine Sujith, “ColourStripes Testbench Image”, [Online] Available: (https://github.com/ShineSujith/FPGA_VGA_Project)
+[2] Shine Sujith, “ColourStripes Testbench Image”, [Online] Available: [https://github.com/ShineSujith/FPGA_VGA_Project](https://github.com/ShineSujith/FPGA_VGA_Project)
 
-[3] chipverify, “For loop”, [Online] Available: (https://www.chipverify.com/verilog/verilog-for-loop)
+[3] chipverify, “For loop”, [Online] Available: [https://www.chipverify.com/verilog/verilog-for-loop](https://www.chipverify.com/verilog/verilog-for-loop)
 
-[4] stackoverflow,“Circle research” ,[Online] Available: (https://stackoverflow.com/questions/20333622/how-do-i-fill-in-an-fpga-generated-circle-in-verilog-for-synthesis-and-vga-outpu)
+[4] stackoverflow,“Circle research” ,[Online] Available: [https://stackoverflow.com/questions/20333622/how-do-i-fill-in-an-fpga-generated-circle-in-verilog-for-synthesis-and-vga-outpu](https://stackoverflow.com/questions/20333622/how-do-i-fill-in-an-fpga-generated-circle-in-verilog-for-synthesis-and-vga-outpu)
 
-[5] Wikipedia, “Video Graphics Array”, [Online] Available: (https://en.wikipedia.org/wiki/Video_Graphics_Array)
+[5] Wikipedia, “Video Graphics Array”, [Online] Available: [https://en.wikipedia.org/wiki/Video_Graphics_Array](https://en.wikipedia.org/wiki/Video_Graphics_Array)
 
 
