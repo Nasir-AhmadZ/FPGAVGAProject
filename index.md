@@ -55,6 +55,10 @@ I connected the Basys 3 board to the monitor with a VGA cable and these were the
 
 ## **My VGA Design Edit**
 Introduce your own design idea. Consider how complex/achievabble this might be or otherwise. Reference any research you do online (use hyperlinks).
+
+My first idea was to create a checkerboard pattern . I wanted to use for loops to create a checkerboard pattern but trying to see how to properly use for loops in verilog was time consuming. In addition to this generating the bitstream each time took too long. Moving on from that I tried experimenting with the code trying to see what would happen if I used if statements and modulo. I used techniques from both ColourCycle.v and ColourStripes.v. For example I used three registers for changing the colours. I assigned my designs to two different switches. My design shows you different coloured dots across the screen in a grid pattern on switch 1 and a yellow square in the bottom right corner on switch 2. You can combine these two images to create a column of dots with a yellow square in the corner.
+
+
 ### **Code Adaptation**
 Briefly show how you changed the template code to display a different image. Demonstrate your understanding. Guideline: 1-2 short paragraphs.
 ### **Simulation**
