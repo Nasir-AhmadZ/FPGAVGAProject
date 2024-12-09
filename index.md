@@ -34,7 +34,7 @@ When running the simulation Vivado will open a waveform viewer. This displays th
 <img src="SoC-Images/ColourStripes_Testbench.png">
 
 ### **Synthesis**
-Synthesis generates a netlist from your RTL(Register Transfer Level) code. The netlist contains information about the general logic blocks being used and how they are connnected.
+Synthesis generates a netlist from your RTL(Register Transfer Level) code. The netlist contains information about the general logic blocks being used and how they are connnected. Below is the synthesis and implentation of ColourCycle.v.
 
 Synthesis
 
@@ -73,7 +73,7 @@ The Simulation reduced the time it took to run the code. Below is the code I use
 
 ### **Synthesis**
 
-You need to run Synthesis and Implementation before you can generate a bitstream. The only change would be the switches. 
+You need to run Synthesis and Implementation before you can generate a bitstream. The only change would be the switches. Below is the synthesis and implementation of my code.
 
 Synthesis
 
