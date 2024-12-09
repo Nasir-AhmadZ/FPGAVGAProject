@@ -15,6 +15,7 @@ We were given template code by our professor Michelle Lynch. This was uploaded t
 
 
 <img src="SoC-Images/Project Hierarchy.png">
+<img src="SoC-Images/Project_summary.png">
 
 ### **Template Code**
 Outline the structure and design of the Verilog code templates you were given. What do they do? Include reference to how a VGA interface works. Guideline: 2/3 short paragraphs, consider including screenshot(s).
@@ -66,16 +67,19 @@ To create different images depending on which switch was on, I went into the Bas
 
 Like in ColourStripes.v I used `if statements` to assign different pixels a colour value. In ColourStripes.v the only use col to change the colours within certain columns which created stripes. I changed this to use both columns and rows. So that the pixels would change colour depending on both the row and column. I divided the screen into 60x640 segments, this split the screen into 8 segments, each segment was assigned a different colour. For example the first rows 0 to 60 were assigned the colour white. I then used the condition `if(col%10 || row%10)` to make everything around the pixels whos row was divisble by 10 or colomn was divisble by 10 black. 
 ### **Simulation**
-Show how you simulated your own design. Are there any things to note? Demonstrate your understanding. Add a screenshot. Guideline: 1-2 short paragraphs.
+The Simulation reduced the time it took to run the code. 
 ### **Synthesis**
 Describe the synthesis & implementation outputs for your design, are there any differences to that of the original design? Guideline 1-2 short paragraphs.
 ### **Demonstration**
-If you get your own design working on the Basys3 board, take a picture! Guideline: 1-2 sentences.
+**Image 1**
 
 <img src="SoC-Images/img1_demo.jpg">
 
+**Image 2**
+
 <img src="SoC-Images/img2_demo.jpg">
 
+**Image 1 and image 2 combined**
 <img src="SoC-Images/img1&2Combined_demo.jpg">
 
 ## **More Markdown Basics**
