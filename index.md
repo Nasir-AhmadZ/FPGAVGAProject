@@ -34,11 +34,12 @@ When running the simulation Vivado will open a waveform viewer. This displays th
 ### **Synthesis**
 Describe the synthesis and implementation processes. Consider including 1/2 useful screenshot(s). Guideline: 1/2 short paragraphs.
 
-
+Synthesis generates a netlist from your RTL(Register Transfer Level) code. The netlist contains information about the general logic blocks being used and how they are connnected.
 ### **Demonstration**
 Perhaps add a picture of your demo. Guideline: 1/2 sentences.
 
 <img src="PXL_20241111_160449527.MP.jpg">
+<img src+"SoC-Images/ColourStripesDemo.jpeg">
 
 ## **My VGA Design Edit**
 Introduce your own design idea. Consider how complex/achievabble this might be or otherwise. Reference any research you do online (use hyperlinks).
