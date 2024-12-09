@@ -8,8 +8,6 @@ Hello my name is Nasir Ahmad. This is my project for the module System on Chip D
 
 ## **Template VGA Design**
 ### **Project Set-Up**
-Summarise the set-up and design flow. Include a screenshot of your own set-up, for example see the image of my Project Summary window below. Guideline 1 short paragraph.
-
 
 We were given template code by our professor Michelle Lynch. This was uploaded to moodle for our use. The first thing I did was set up my project by downloading the template code from moodle and importing it into a project within vivado. The template code included a VGATop.v, VGASync.v, VGAColorCycle.v, Testbench.v and Basys3_Master.xdc. I changed the clock frequancy to 25MHz using the clock wizard. This was done to match the timing of the VGA signal. The VGA resolution was 480x640.
 
@@ -18,8 +16,6 @@ We were given template code by our professor Michelle Lynch. This was uploaded t
 <img src="SoC-Images/Project_summary.png">
 
 ### **Template Code**
-Outline the structure and design of the Verilog code templates you were given. What do they do? Include reference to how a VGA interface works. Guideline: 2/3 short paragraphs, consider including screenshot(s).
-
 
 There are two main templates for creating the images. These are **ColourCycle.v** and **ColourStripes.v**. 
 
@@ -27,8 +23,6 @@ There are two main templates for creating the images. These are **ColourCycle.v*
 
 **ColourStripes.v** Produces vertical lines of colour using inputs roe and col. These represent the row and coloumn of the VGA screen. ColourStrpies.v uses `if statements` to change the colour of the screen depending on the specific rows and columns. For example when the column is in the ranges 0 - 80 the colour will be black. ColourStripes.v also uses three registers for the colours just like in ColourCycle.v except it just assigns the three registers to the three color registers on each positive clock edge.
 ### **Simulation**
-
-Explain the simulation process. Reference any important details, include a well-selected screenshot of the simulation. Guideline: 1/2 short paragraphs.
 
 In this process we use testbench.v to generate a simulation. We can use the simulation to test our code quickly rather than having to generate a bitstream each time which take a long time to genearate. This is because generating a bitstream involves also generating a new synthesis and implemention first which both take quite a bit of time on there own. Using the simulation we can get an idea of what the VGA output might look like. 
 
@@ -43,13 +37,16 @@ When running the simulation Vivado will open a waveform viewer. This displays th
 Synthesis generates a netlist from your RTL(Register Transfer Level) code. The netlist contains information about the general logic blocks being used and how they are connnected.
 
 Synthesis
+
+
 <img src="SoC-Images/synthesis.png">
 
 Implementation
+
+
 <img src="SoC-Images/Implementation.png">
 
 ### **Demonstration**
-Perhaps add a picture of your demo. Guideline: 1/2 sentences.
 
 
 I connected the Basys 3 board to the monitor with a VGA cable and these were the outputs.
@@ -81,9 +78,13 @@ The Simulation reduced the time it took to run the code. Below is the code I use
 You need to run Synthesis and Implementation before you can generate a bitstream. The only change would be the switches. 
 
 Synthesis
+
+
 <img src="SoC-Images/synthesis.png">
 
 Implementation
+
+
 <img src="SoC-Images/Implementation.png">
 ### **Demonstration**
 **Image 1**
@@ -97,20 +98,11 @@ Implementation
 **Image 1 and image 2 combined**
 <img src="SoC-Images/img1&2Combined_demo.jpg">
 
-## **More Markdown Basics**
-This is a paragraph. Add an empty line to start a new paragraph.
+### **References**
+[1] M. Lynch, “SoC”, Lecture, ATU, Galway, 2024.
+[2] Shine Sujith, “ColourStripes Testbench Image”, [Online] Available: https://github.com/ShineSujith/FPGA_VGA_Project
+[3] chipverify, “For loop”, [Online] Available: https://www.chipverify.com/verilog/verilog-for-loop
+[4] stackoverflow,“Circle research” ,[Online] Available: https://stackoverflow.com/questions/20333622/how-do-i-fill-in-an-fpga-generated-circle-in-verilog-for-synthesis-and-vga-outpu
+[5] Wikipedia, “Video Graphics Array”, [Online] Available: https://en.wikipedia.org/wiki/Video_Graphics_Array
 
-Font can be emphasised as *Italic* or **Bold**.
 
-Code can be highlighted by using `backticks`.
-
-Hyperlinks look like this: [GitHub Help](https://help.github.com/).
-
-A bullet list can be rendered as follows:
-- vectors
-- algorithms
-- iterators
-
-Images can be added by uploading them to the repository in a /docs/assets/images folder, and then rendering using HTML via githubusercontent.com as shown in the example below.
-
-<img src="https://raw.githubusercontent.com/melgineer/fpga-vga-verilog/main/docs/assets/images/VGAPrjSrcs.png">
