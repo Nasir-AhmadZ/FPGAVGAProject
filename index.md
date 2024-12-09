@@ -84,6 +84,7 @@ Implementation
 
 
 <img src="SoC-Images/Implementation.png">
+
 ### **Demonstration**
 **Image 1**
 
