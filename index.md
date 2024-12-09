@@ -9,6 +9,8 @@ Hello my name is Nasir Ahmad. This is my project for the module System on Chip D
 ## **Template VGA Design**
 ### **Project Set-Up**
 Summarise the set-up and design flow. Include a screenshot of your own set-up, for example see the image of my Project Summary window below. Guideline 1 short paragraph.
+
+
 We were given template code by our professor Michelle Lynch. This was uploaded to moodle for our use. The first thing I did was set up my project by downloading the template code from moodle and importing it into a project within vivado. The template code included a VGATop.v, VGASync.v, VGAColorCycle.v, Testbench.v and Basys3_Master.xdc. I changed the clock frequancy to 25MHz using the clock wizard. This was done to match the timing of the VGA signal.
 
 <img src="PXL_20241111_160449527.MP.jpg">
