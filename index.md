@@ -39,7 +39,7 @@ Synthesis generates a netlist from your RTL(Register Transfer Level) code. The n
 Perhaps add a picture of your demo. Guideline: 1/2 sentences.
 
 <img src="PXL_20241111_160449527.MP.jpg">
-<img src+"SoC-Images/ColourStripesDemo.jpeg">
+<img src="SoC-Images/ColourStripesDemo.jpeg">
 
 ## **My VGA Design Edit**
 Introduce your own design idea. Consider how complex/achievabble this might be or otherwise. Reference any research you do online (use hyperlinks).
