@@ -40,9 +40,14 @@ When running the simulation Vivado will open a waveform viewer. This displays th
 <img src="SoC-Images/ColourStripes_Testbench.png">
 
 ### **Synthesis**
-Describe the synthesis and implementation processes. Consider including 1/2 useful screenshot(s). Guideline: 1/2 short paragraphs.
-
 Synthesis generates a netlist from your RTL(Register Transfer Level) code. The netlist contains information about the general logic blocks being used and how they are connnected.
+
+Synthesis
+<img src="SoC-Images/synthesis.png">
+
+Implementation
+<img src="SoC-Images/Implementation.png">
+
 ### **Demonstration**
 Perhaps add a picture of your demo. Guideline: 1/2 sentences.
 
@@ -70,8 +75,11 @@ Like in ColourStripes.v I used `if statements` to assign different pixels a colo
 The Simulation reduced the time it took to run the code. Below is the code I used for the testbench.
 
 <img src="SoC-Images/testbench code.png">
+
 ### **Synthesis**
+
 You need to run Synthesis and Implementation before you can generate a bitstream. The only change would be the switches. 
+
 Synthesis
 <img src="SoC-Images/synthesis.png">
 
