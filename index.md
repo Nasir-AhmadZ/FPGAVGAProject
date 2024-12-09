@@ -46,6 +46,8 @@ Synthesis generates a netlist from your RTL(Register Transfer Level) code. The n
 Perhaps add a picture of your demo. Guideline: 1/2 sentences.
 
 
+I connected the Basys 3 board to the monitor with a VGA cable and these were the outputs.
+
 **ColourCycle.v Demo**
 <img src="PXL_20241111_160449527.MP.jpg">
 **ColourStripes.v Demo** 
